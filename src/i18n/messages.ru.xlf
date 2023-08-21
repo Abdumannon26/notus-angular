@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="ru" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="landingTitle" datatype="html">
+        <source>
+          Your story starts with us.
+        </source>
+        <target>
+          Ваша история начинается с нас.
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Загаловок лендинга</note>
+      </trans-unit>
+      <trans-unit id="landingSubTitle" datatype="html">
+        <source>
+          This is a simple example of a Landing Page you can build using
+          Notus Angular. It features multiple CSS components based on the
+          Tailwind CSS design system.
+        </source>
+        <target>
+          Это простой пример целевой страницы, которую вы можете создать, используя
+          Нотус Угловой. Он содержит несколько компонентов CSS, основанных на
+          Система дизайна Tailwind CSS.
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Информация лендинга</note>
+      </trans-unit>
+      <trans-unit id="landingCardAgency" datatype="html">
+        <source>
+          Awarded Agency
+        </source>
+        <target>
+          Награжденное агентство
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Карточка агенство</note>
+      </trans-unit>
+      <trans-unit id="landingCardAgencyInfo" datatype="html">
+        <source>
+          Divide details about your product or agency work into parts. A
+          paragraph describing a feature will be enough.
+        </source>
+        <target>
+          Разделите информацию о вашем продукте или работе агентства на части. А
+          абзаца с описанием функции будет достаточно.
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Карточка агенство инфо</note>
+      </trans-unit>
+      <trans-unit id="landingCardRevisions" datatype="html">
+        <source>
+          Free Revisions
+        </source>
+        <target>
+          Бесплатные версии
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Карточка редакции</note>
+      </trans-unit>
+      <trans-unit id="landingCardRevisionsInfo" datatype="html">
+        <source>
+          Keep you user engaged by providing meaningful information.
+          Remember that by this time, the user is curious.
+        </source>
+        <target>
+          Вовлекайте пользователей, предоставляя значимую информацию.
+          Помните, что к этому времени пользователь уже любопытен.
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Карточка редакции инфо</note>
+      </trans-unit>
+      <trans-unit id="landingCardCompany" datatype="html">
+        <source>
+          Verified Company
+        </source>
+        <target>
+          Проверенная Компания
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Карточка компании</note>
+      </trans-unit>
+      <trans-unit id="landingCardCompany" datatype="html">
+        <source>
+          Verified Company
+        </source>
+        <target>
+          Проверенная Компания
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Карточка компании</note>
+      </trans-unit>
+      <trans-unit id="landingCardCompanyInfo" datatype="html">
+        <source>
+          Write a few lines about each one. A paragraph describing a
+          feature will be enough. Keep you user engaged
+        </source>
+        <target>
+          Напишите несколько строк о каждом из них. Абзац, описывающий
+          функции будет достаточно. Держите пользователей вовлеченными
+        </target>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Карточка компании инфо</note>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

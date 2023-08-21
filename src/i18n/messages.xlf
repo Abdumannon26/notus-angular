@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="landingTitle" datatype="html">
+        <source>
+          Your story starts with us.
+        </source>
+        <context-group purpose="location">
+          <context context-type="source-file">app\views\app.landing.html</context>
+          <context context-type="linen-umber">21</context>
+        </context-group>
+        <note priority="1" from="description">Загаловок лендинга</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

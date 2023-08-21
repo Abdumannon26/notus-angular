@@ -1,0 +1,86 @@
+{
+  "dashboardCards": [
+    {
+      "id": 1,
+      "cardName": "TRAFFIC",
+      "cardType": "traffic",
+      "count": "350,897",
+      "percent": "3.48",
+      "perCentType": "up",
+      "period": "Since yesterday"
+    },
+    {
+      "id": 2,
+      "cardName": "NEW USERS",
+      "cardType": "new-user",
+      "count": "2,356",
+      "percent": "3.48",
+      "perCentType": "down",
+      "period": "Since last week"
+    },
+    {
+      "id": 3,
+      "cardName": "SALES",
+      "cardType": "sales",
+      "count": "924",
+      "percent": "1.10",
+      "perCentType": "down",
+      "period": "Since yesterday"
+    },
+    {
+      "id": 4,
+      "cardName": "PERFORMANCE",
+      "cardType": "performance",
+      "count": "49,65",
+      "percent": "12",
+      "perCentType": "up",
+      "period": "Since last month"
+    }
+  ],
+  "dashboard": [
+    {
+      "visitsTable": [
+        {
+          "visitTile": "Page visits",
+          "visits": [
+            {
+              "visitName": "/argon/",
+              "visitorTotal": "4,569",
+              "uniqueUserTotal": "340",
+              "bounceRateTotal": "46,53",
+              "bounceRateType": "up"
+            },
+            {
+              "visitName": "/argon/index.html",
+              "visitorTotal": "3,985",
+              "uniqueUserTotal": "319",
+              "bounceRateTotal": "46,53",
+              "bounceRateType": "down"
+            },
+            {
+              "visitName": "/argon/charts.html",
+              "visitorTotal": "3,513",
+              "uniqueUserTotal": "294",
+              "bounceRateTotal": "36,49",
+              "bounceRateType": "down"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userName": "Jenna",
+      "userEmail": "JStones91@gmail.com",
+      "userMiddleName": "Stones",
+      "userSurname": "Stones",
+      "userAddress": "LOS ANGELES str-91",
+      "city": " LOS ANGELES",
+      "country": "CALIFORNIA",
+      "postalCode": "1234567890",
+      "description": "An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes"
+    }
+  ]
+}
