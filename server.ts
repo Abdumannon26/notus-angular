@@ -8,9 +8,9 @@ import { join } from 'node:path';
 import { AppServerModule } from './src/main.server';
 
 // The Express app is exported so that it can be used by serverless Functions.
-export function app(): express.Express {
+export function app(language): express.Express {
   const server = express();
-  const distFolder = join(process.cwd(), 'dist/notus-angular/browser');
+  const distFolder = join(process.cwd(), 'dist/notus-angular/browser', language);
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/main/modules/express-engine)
@@ -38,11 +38,13 @@ export function app(): express.Express {
 
 function run(): void {
   const port = process.env['PORT'] || 4000;
+  const language = process.env.LANGUAGE || 'en';
+
 
   // Start up the Node server
-  const server = app();
+  const server = app(language);
   server.listen(port, () => {
-    console.log(`Node Express server listening on http://localhost:${port}`);
+    console.log(`Node Express server listening on http://localhost:${port} with language ${language}`);
   });
 }
 
